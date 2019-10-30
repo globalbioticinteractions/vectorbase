@@ -62,7 +62,7 @@
         "datatype": "string"
       },
       {
-        "name": "Collection date range",
+        "name": "http://rs.tdwg.org/dwc/terms/eventDate",
         "titles": "Collection date range",
         "datatype": "string"
       },
@@ -77,12 +77,12 @@
         "datatype": "string"
       },
       {
-        "name": "decimalLatitude",
+        "name": "http://rs.tdwg.org/dwc/terms/decimalLatitude",
         "titles": "Latitudes",
         "datatype": "string"
       },
       {
-        "name": "decimalLongitude",
+        "name": "http://rs.tdwg.org/dwc/terms/decimalLongitude",
         "titles": "Longitudes",
         "datatype": "string"
       },
