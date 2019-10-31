@@ -22,20 +22,6 @@
       "null": [
         ""
       ]
-    },
-    {
-      "tableSchema": "schema-pathogen.json",
-      "url": "https://www.vectorbase.org/popbio/map/esolr/solr/vb_popbio/pathExport?q=*:*&fl=exp_sample_id_s,exp_assay_id_s,exp_bundle_name_s,exp_species_s,exp_sample_type_s,exp_label_s,exp_collection_assay_id_s,exp_collection_date_range_ss,exp_collection_protocols_ss,exp_projects_ss,exp_geo_coords_s,exp_geolocations_ss,exp_phenotype_type_s,exp_protocols_ss,exp_sample_size_i,exp_phenotype_value_f,exp_phenotype_value_unit_s,exp_phenotype_value_type_s,exp_infection_source_s,exp_infection_status_s,exp_tags_ss,exp_attractants_ss,exp_sex_s,exp_dev_stages_ss,exp_geolocation_provenance_s,exp_geolocation_precision_s,exp_citations_ss,exp_licenses_ss,exp_sample_name_s&sort=exp_id_s+asc",
-      "dcterms:bibliographicCitation": "Giraldo-Calderón, G. I., Emrich, S. J., MacCallum, R. M., Maslen, G., Dialynas, E., Topalis, P., … Lawson, D. (2015). VectorBase: an updated bioinformatics resource for invertebrate vectors and other organisms related with human diseases. Nucleic acids research, 43(Database issue), D707–D713. doi:10.1093/nar/gku1117.",
-      "doi": "10.1093/nar/gku1117",
-      "interactionTypeId": "http://purl.obolibrary.org/obo/RO_0002557",
-      "interactionTypeName": "has pathogen",
-      "sourceTaxonId": "NCBITaxon:9606",
-      "sourceTaxonName": "Homo sapiens",
-      "headerRowCount": 1,
-      "null": [
-        ""
-      ]
     }
   ],
   "_comment": "see https://github.com/globalbioticinteractions/vectorbase/issues/1",
