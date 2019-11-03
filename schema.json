@@ -101,7 +101,7 @@
       "datatype": "string"
     },
     {
-      "name": "referenceDoi",
+      "name": "referenceCitation",
       "titles": "Citations",
       "datatype": "string"
     },
