@@ -1,13 +1,17 @@
-install: 
-  - wget "https://raw.githubusercontent.com/globalbioticinteractions/globinizer/master/check-dataset.sh" -O check-dataset.sh
-  - chmod +x check-dataset.sh
-
-script: 
-  - ./check-dataset.sh ${TRAVIS_REPO_SLUG}
-
+install:
+- wget "https://raw.githubusercontent.com/globalbioticinteractions/globinizer/master/check-dataset.sh"
+  -O check-dataset.sh
+- chmod +x check-dataset.sh
+script:
+- "./check-dataset.sh ${TRAVIS_REPO_SLUG}"
 notifications:
   email:
     recipients:
-      - jhpoelen@xs4all.nl
-      - edward.baker@nhm.ac.uk
+    - jhpoelen@xs4all.nl
+    - edward.baker@nhm.ac.uk
     on_success: always
+env:
+  global:
+  - secure: D3A68n6Dtu1l7ti1V3CPmGU49+7vavnVpv+AHaJov6yifH2zK6/88us/LbBp0NHOtkbSyhNAXftJSbwygm19qao4b/LBIt91hBmP0V5uJsRTsudGDjHxj4C2eEDbTzXfBNCcTb6k1k71IN2VA3rEsfMvYZlW7lMiEDydSFp0PlBY5gTw2N7COHFfWrJOelK98ByVIOX+zJ46Ov4oDVE35y2vdsI4TVAFvpLzqQDiGUUVnhrrHChkHfcb17DLOwJTS9ubYH/g9A8ZU7SFP7spfsmxv+tc0U7Ug6M1ByqEO0kNJONuzfnkSfxt1wHDxuvp52iMsHli1AX7WU6prFm/ItvaM4RxZkTwqJwoWQlvjDHH1kb3XajwumqG1cQqlCcvf+BpqA1Wiv5taLqqbNDL45Qai2MJ9Kyjw9hSGdSUtLbAia6wJpWMjf7YhqvXfIddzz5gl/wFeRujsBKQ96yWwEypjpOP/dFduimmVQqCLfwjgYFJDX3O3yvf0Y28XCIQ/ft+Xz3BgezaCGFdkU4bZCt+AQRmzuNikGAck5KzW9ViIdJrD0RbLNQd8nVY+ElU0VYk2NDrWaIC1ly2VBtW9srmZcULCcQscs88g1QVGusKtJ7u0GsyHa3eIQ18bbkTLJmhG3r9bvb8IBoCFiO11nTlRzYpdr4QksscaoNmBbY=
+  - secure: enc6QiQdIPeXhxYkoNiCd4F7m60/QhW/DCfhZTd39ToYur4nSMmWvaCaGm4KH0nugkVXhshtxNQx3yhvXpfuwKKxR9cXidQtvbpNLlgurIST3FhiQSaKK+KuchNF4FgKgXAwl1uEPcRA1Cf/W5blB2yKoIPPDK0uL+3g9DPz+FhfgJcARV2z/faUOo8N+R3M/bsrxw9h3i38hpD405GoopSevCmT4yX9/N7ciL91P+oToMqVeLvK/Fbu7dMmcQdGfbX+E0zdCFLWFxL0I3RySEfm9qu6h52GKv6zudIi+QzHUkFt35e0bEtyd1HFkgLWqRvL9B+87SjQYzOJTHP38iEMAdlyvyOSzCoNY8IxxXtRWTa8Mc+NIG2dDyPtSGeoAi8uwusUs/Onbkq8+/cqlHOyhPwXozN+Gpv+OuzersMsMmakP6CEXeU9HEhN3hZY6Wx5fER1iQLaJQUdc6ep2nwilInuzSUa4HPMZmetQoCr80nCqucqCSZOAweWJ26Gp7HPclleJ6Ld4ZzeLVJu1VPehf+/DpypyrPN8fzlIpsOcoASL5m87gfMftOa4bMH0j5HgQwDQy8DwA5m7aC4wT942CnuyzXIISGcAcOAnOqw3KH6pEse5WQG9jHX/2l0ugWgoZqKLfOcOBlwtxDmYaHwDb5RAXwGStJwmSfnx4Q=
+  - secure: bHvMRDoVhR4AqxLva+rHqklxf50J4bwvbYnC/wPSjrBdx95wc96MPJs2rSI+rbrR/+Kxe6V0+rDOsbnNeIedhCmHRCKXKmu9d3AyloOjc/K1bTvpPBuFgo1OGMciiN50PUs+st5d1pumaf2le1MY6jiExo2UhSg+b9MWqjdjk2ic0NfO/2jiTYwMBdojWCaHT1cJu/behL1OlmsS29YDfp6JGfv9+rYE9Ziu0RQvWWuA/eBOouBz7dBpZbMejmfH/vdzrzU8OSqveGAGbSFV5Bc321OldQ539Q3BObYf6ehM+R9I2Rr17P2T8O7U7enwiKP+AzORnGTw8GubobLpk+F8X7iitrn8KEjzbb3LK2b2Z0zEctW6CAT3nt7bJgXoGHa8rsNcUy/QFzhHQuZYcOmQxpZglzBNrPtMnxARrhCsZKwSQSfYPct9qweh/nYj9M60ESV8n1pEfrBaoDQf3jz83o8E/JLxbBpZ7A6YQGDuvMkv7cvOfn4jU3rzotTLuaU9tiZjlFJrGzFP14ONHiXHIP4vc4wPoyTZqU1oWh28JAgo5t8ZEof0iXAzQfA/oJpXwyG87LAKd/GJSbzKtFjyzJn3EZ11F+mfUhOFTIXqRIYvc947VP+TpHVpvkEDkUUSAf/2e2+anwsyWj9Gj4sEdp0iWuOGuKxGYun/OxY=
