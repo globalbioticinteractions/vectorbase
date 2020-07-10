@@ -4,12 +4,6 @@ install:
 - chmod +x check-dataset.sh
 script:
 - "./check-dataset.sh ${TRAVIS_REPO_SLUG}"
-notifications:
-  email:
-    recipients:
-    - jhpoelen@xs4all.nl
-    - edward.baker@nhm.ac.uk
-    on_success: always
 env:
   global:
   - secure: D3A68n6Dtu1l7ti1V3CPmGU49+7vavnVpv+AHaJov6yifH2zK6/88us/LbBp0NHOtkbSyhNAXftJSbwygm19qao4b/LBIt91hBmP0V5uJsRTsudGDjHxj4C2eEDbTzXfBNCcTb6k1k71IN2VA3rEsfMvYZlW7lMiEDydSFp0PlBY5gTw2N7COHFfWrJOelK98ByVIOX+zJ46Ov4oDVE35y2vdsI4TVAFvpLzqQDiGUUVnhrrHChkHfcb17DLOwJTS9ubYH/g9A8ZU7SFP7spfsmxv+tc0U7Ug6M1ByqEO0kNJONuzfnkSfxt1wHDxuvp52iMsHli1AX7WU6prFm/ItvaM4RxZkTwqJwoWQlvjDHH1kb3XajwumqG1cQqlCcvf+BpqA1Wiv5taLqqbNDL45Qai2MJ9Kyjw9hSGdSUtLbAia6wJpWMjf7YhqvXfIddzz5gl/wFeRujsBKQ96yWwEypjpOP/dFduimmVQqCLfwjgYFJDX3O3yvf0Y28XCIQ/ft+Xz3BgezaCGFdkU4bZCt+AQRmzuNikGAck5KzW9ViIdJrD0RbLNQd8nVY+ElU0VYk2NDrWaIC1ly2VBtW9srmZcULCcQscs88g1QVGusKtJ7u0GsyHa3eIQ18bbkTLJmhG3r9bvb8IBoCFiO11nTlRzYpdr4QksscaoNmBbY=
