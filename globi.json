@@ -11,7 +11,8 @@
   "tables": [
     {
       "tableSchema": "schema-parasite.json",
-      "url": "https://vectorbase.org/popbio-map/web/esolr/solr/vb_popbio/mealExport?q=*:*&fl=exp_sample_id_s,exp_assay_id_s,exp_bundle_name_s,exp_species_s,exp_sample_type_s,exp_label_s,exp_collection_assay_id_s,exp_collection_date_range_ss,exp_collection_protocols_ss,exp_projects_ss,exp_geo_coords_s,exp_geolocations_ss,exp_phenotype_type_s,exp_protocols_ss,exp_sample_size_i,exp_phenotype_value_f,exp_phenotype_value_unit_s,exp_phenotype_value_type_s,exp_blood_meal_source_s,exp_tags_ss,exp_attractants_ss,exp_sex_s,exp_dev_stages_ss,exp_geolocation_provenance_s,exp_geolocation_precision_s,exp_citations_ss,exp_licenses_ss&sort=exp_id_s+asc",
+      "url": "e0e2cf780ab838c4531b0e491045c5f9c25717e7f9918575345e4d45feca8ab4.csv",
+      "_url": "https://vectorbase.org/popbio-map/web/esolr/solr/vb_popbio/mealExport?q=*:*&fl=exp_sample_id_s,exp_assay_id_s,exp_bundle_name_s,exp_species_s,exp_sample_type_s,exp_label_s,exp_collection_assay_id_s,exp_collection_date_range_ss,exp_collection_protocols_ss,exp_projects_ss,exp_geo_coords_s,exp_geolocations_ss,exp_phenotype_type_s,exp_protocols_ss,exp_sample_size_i,exp_phenotype_value_f,exp_phenotype_value_unit_s,exp_phenotype_value_type_s,exp_blood_meal_source_s,exp_tags_ss,exp_attractants_ss,exp_sex_s,exp_dev_stages_ss,exp_geolocation_provenance_s,exp_geolocation_precision_s,exp_citations_ss,exp_licenses_ss&sort=exp_id_s+asc",
       "dcterms:bibliographicCitation": "Giraldo-Calderón, G. I., Emrich, S. J., MacCallum, R. M., Maslen, G., Dialynas, E., Topalis, P., … Lawson, D. (2015). VectorBase: an updated bioinformatics resource for invertebrate vectors and other organisms related with human diseases. Nucleic acids research, 43(Database issue), D707–D713. doi:10.1093/nar/gku1117.",
       "doi": "10.1093/nar/gku1117",
       "interactionTypeId": "http://purl.obolibrary.org/obo/RO_0002444",
